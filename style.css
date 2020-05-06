@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@400;700&display=swap');
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  padding: 0px 10px;
+  margin: 5px 40px auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: rgb(170, 170, 170);
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: rgb(70, 70, 70)
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+}
+
+a {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 23px;
+  text-decoration: none;
+  color: rgb(100, 100, 100)
+}
+
+a:hover {
+  background-color: rgba(211, 243, 232, 0.6);
+}
